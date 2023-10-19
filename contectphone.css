@@ -1,0 +1,17 @@
+.navbar{
+    flex-direction: column;
+    width:100%;
+}
+.navbar .list{
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.navbar .list a{
+    margin: 0 10px;
+}
+.contectbox{
+    flex-direction: column;
+}
+.contectbox #box2 form{
+    width: 80%;
+}

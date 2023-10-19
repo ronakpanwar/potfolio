@@ -1,0 +1,279 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.navbar {
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   top: 0;
+   position: sticky;
+
+}
+
+.navbar::before {
+   content: "";
+   position: absolute;
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+
+   height: 100%;
+   opacity: 0.8;
+   z-index: -1;
+}
+
+.navbar div {
+   display: flex;
+   margin: 0px;
+}
+
+.navbar div .name1 {
+   font-family: 'Berkshire Swash', cursive;
+   font-size: 25px;
+   margin-left: 30px;
+   animation-name: R;
+   color: rgb(7, 224, 206);
+   animation-duration: 8s;
+   animation-timing-function: ease-out;
+   transition-delay: 1s;
+   transition-property: all;
+}
+
+@keyframes R {
+   0% {
+      font-size: 0px;
+
+   }
+
+   25% {
+      font-size: 20px;
+   }
+
+   50% {
+      font-size: 45px;
+   }
+
+   100% {
+      font-size: 25px;
+   }
+}
+
+.navbar div .name2 {
+   font-family: 'Berkshire Swash', cursive;
+   font-size: 25px;
+   color: rgb(255, 255, 255);
+   animation-name: P;
+   animation-delay: 5s;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+}
+
+@keyframes P {
+   0% {
+      font-size: 20px;
+   }
+
+   50% {
+      font-size: 45px;
+   }
+
+   100% {
+      font-size: 25px;
+   }
+}
+
+.navbar .list {
+   display: flex;
+   list-style: none;
+   margin: 15px 40px;
+}
+
+.navbar .list a {
+   margin: 0 30px;
+   text-decoration: none;
+   color: white;
+   font-family: 'Abril Fatface', cursive;
+   padding: 5px 10px;
+   border-radius: 22px;
+   transition: all 0.5s ease;
+}
+
+.navbar .list a:hover {
+
+   text-decoration: underline aqua solid;
+   background-color: rgba(20, 20, 20, 0.784);
+
+}
+
+.mainhome {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.image img {
+   width: 50px;
+   height: auto;
+
+}
+
+.image a #linkdin {
+   width: 55px;
+}
+
+.mainhome::before {
+   content: "";
+   position: absolute;
+   background: url('background.jpg') no-repeat center center/cover;
+   width: 100%;
+   height: 500PX;
+   z-index: -1;
+
+}
+
+
+.mainpage {
+   display: flex;
+   align-items: center;
+
+   width: 95vw;
+   height: 450px;
+   justify-content: space-around;
+
+}
+
+.mypic {
+   margin: 40px;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.mypic img {
+   width: 230px;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 4px 4px 4px white;
+   transition: all 0.6s ease;
+   
+
+}
+
+.mypic img:hover {
+   width: 250px;
+   box-shadow: 8px 8px 8px aqua;
+}
+
+.mainpage .content {
+
+   padding: 20px;
+   color: white;
+}
+
+.mainpage .content h3 {
+   font-size: 35px;
+   font-family: 'Lobster Two', cursive;
+}
+
+.mainpage .content h2 {
+   font-size: 50px;
+   font-family: 'Bubblegum Sans', cursive;
+}
+
+.mainpage .content h1 {
+   font-size: 55px;
+   font-family: 'Marcellus', serif;
+}
+
+.mainpage .content p {
+   font-size: 15px;
+   margin: 20px 0;
+
+   font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.container {
+   padding-top: 40px;
+
+}
+
+.container h1 {
+   padding: 20px;
+   text-align: center;
+   color: white;
+   background-color: black;
+}
+
+.aboutdisplay {
+   display: flex;
+
+   width: 100%;
+   justify-content: space-evenly;
+   padding: 20px;
+   background-color: black;
+
+}
+
+
+.aboutdisplay .mypic2 {
+   padding: 10px;
+}
+
+.aboutdisplay .mypic2 img {
+   width: 250px;
+   border-radius: 4px;
+   box-shadow: -8px -8px 8px white;
+}
+
+
+
+.aboutdisplay .about {
+   width: 400px;
+
+   padding: 10px;
+
+}
+
+.aboutdisplay .about .p {
+   padding: 20px;
+
+   color: white;
+
+}
+
+#text {
+   color: white;
+
+}
+
+.aboutdisplay .about h3 {
+   font-size: 30px;
+
+}
+
+.aboutdisplay .about #button {
+   margin: 20px;
+   text-align: center;
+
+}
+
+.aboutdisplay .about p {
+
+   cursor: pointer;
+
+
+   color: white;
+}
+
+
+.footer {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.footer h1 {
+   text-align: center;
+   margin: 10px 0;
+}
