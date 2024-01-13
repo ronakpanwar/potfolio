@@ -1,11 +1,29 @@
-.navbar{
+
+
+ 
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    top: 0;
+    position: sticky;
+ 
+ }
+ .navbar .bar{
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+    
+  }
+ .navbar .list {
+  
+    display: flex;
     flex-direction: column;
-    width:100%;
-}
-.navbar .list{
-    margin: 15px 0px;
-    font-size: 15px;
-}
+    list-style: none;
+    margin: 15px 40px;
+ 
+ }
 .navbar .list a{
     margin: 0 10px;
 }

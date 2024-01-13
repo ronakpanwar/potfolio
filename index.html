@@ -1,94 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ronak panwar portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Bubblegum+Sans&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="screen and (max-width:750px)" href="phone.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ronak panwar portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link
+      href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Bubblegum+Sans&family=Lobster+Two:wght@700&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+   <link rel="stylesheet" media="screen and (max-width:750px)" href="phone.css">
+   <script src="https://kit.fontawesome.com/ca7b1c3abf.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Signika:wght@300;700&display=swap"
+      rel="stylesheet">
+
+   <!-- font-family: 'Philosopher', sans-serif; -->
+   <!-- font-family: 'Signika', sans-serif; -->
+
+   <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;900&family=Philosopher:wght@700&family=Signika:wght@300;700&display=swap"
+      rel="stylesheet">
+   <!-- font-family: 'Catamaran', sans-serif; -->
+   <!-- font-family: 'Philosopher', sans-serif; -->
+   <!-- font-family: 'Signika', sans-serif; -->
+
+
 </head>
+
 <body>
+   <!-- uper navbar section  -->
+   <nav class="first-nav">
+      <div class="name">
+         <h1>RONAK PANWAR</h1>
+      </div>
+      <div class="social-icon">
+         <a href="" class="img-logo"> <i class="fa-brands fa-instagram fa-lg"></i></a>
+         <a href="" class="img-logo"><i class="fa-brands fa-facebook fa-lg"></i></a>
+         <a href="" class="img-logo"><i class="fa-brands fa-twitter fa-lg"></i></a>
+         <a href="" class="img-logo"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+         <a href="" class="img-logo"><i class="fa-brands fa-github  fa-lg"></i></i></a>
+      </div>
 
-     <nav class="navbar">
-      <div>
-        <div class="name1">R</div>
-        <div class="name2">P</div>
-      </div>
-        <ul class="list">
-            <li class="list1"><a href="index.html">Home</a> </li>
-            <li class="list2"><a href="#about">About</a></li>
-            <li class="list3"><a href="skills.html">Skills</a></li>
-            <li class="list4"><a href="project.html">Project</a></li>
-            <li class="list5"><a href="contect.html">Contect</a></li>
-            
-        </ul>
-     </nav>
-     
-     <div class="mainhome">
- 
-      
-        <div class="mainpage">
-             <div class="content">
-                <H3>Hello..
-                 I AM ....</h3><br>
-                
-                <h1> WEB DEVLOPER</h1>
-                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Nobis veritatis id blanditiis.</P>
-             </div>
-             <div class="mypic">
-                <img src="myimg.jpg">
-             </div>
-        </div>
-     </div>
-     <div class="container"id="about">
-     <h1>About Me</h1>
-     <div class="aboutdisplay" >
-        
-        <div class="mypic2">
-            <img src="my2img.jpg">
-        </div>
-        <div class="about">
-            <h3 class="p">My Name -
-            Ronak Panwar<br></h3>
-            <h4 class="p">I am Study in - <b>School of Information Technology ,<br>
-            UTD , RGPV(Bhopal)</b>
-             <br> Branch - <b> Computer Science and Busines Communication</b></h4>
-             <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, perspiciatis sapiente. Deleniti inventore repellendus labore officia debitis illum eveniet vel dolor eum maxime!</p>
-            
-             <p   id="button" onclick="hidetext()">Read More..</p> 
+   </nav>
+   <hr>
+   <!-- navbar section  -->
+   <nav class="navbar" id="nav">
 
-        </div>
-     </div>
+      <ul class="list" id="lists">
+         <li class="list1"><a href="index.html">Home</a> </li>
+         <li class="list2"><a href="#about">About</a></li>
+         <li class="list3"><a href="#skill">Skills</a></li>
+         <li class="list4"><a href="#projects">Project</a></li>
+         <li class="list5"><a href="#cnt">Contact</a></li>
+      </ul>
+      <div class="bar" id="bars" onclick="change()">
+         <i class="fa-solid fa-bars fa-lg"></i>
       </div>
-      <div class="footer">
-        <div class="heading"> <h1> Follow on </h1></div>
-        <div class="image2">
-        
+   </nav>
+
+   <!-- home page section  -->
+
+   <div class="mainhome">
+
+      <div class="mainpage">
+         <div class="mypic">
+            <img src="#">
+            <h1></h1>
+         </div>
       </div>
+   </div>
+
+   <!-- about page section  -->
+   <div class="container" id="about">
+      <h1 id="about">About Me</h1>
+      <div class="aboutme">
+         <div class="box2">
+            <h2>Hello , my name is <b>Ronak Panwar </b></h2>
+
+            <h1>I am <b>WEB DEVELOPER</b></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, at laboriosam corrupti impedit sunt,
+               animi officia ex ad assumenda nam ab aut numquam sequi.</p>
+            <button><i class="fa-solid fa-chevron-down"></i> More About</button>
+         </div>
+         <div class="box1">
+            <img src="#" alt="">
+         </div>
       </div>
+   </div>
+   </div>
+
+   <!-- skills section -->
+   <div class="skills" id="skill">
+      <div class="hading">
+         <h1>Skills</h1>
+      </div>
+      <div class="container-skills">
+         <div class="block">
+            <div class="web-block">
+               <i class="fa-brands fa-html5"></i>
+               <div class="btn">
+                  <p class="html"></p>
+               </div>
+            </div>
+            <div class="web-block">
+               <i class="fa-brands fa-css3-alt"></i>
+               <div class="btn">
+                  <p class="css"></p>
+               </div>
+            </div>
+            <div class="web-block">
+               <i class="fa-brands fa-js"></i>
+               <div class="btn">
+                  <p class="javascript"></p>
+               </div>
+            </div>
+            <div class="web-block">
+               <i class="fa-brands fa-react"></i>
+               <div class="btn">
+                  <p class="react"></p>
+               </div>
+            </div>
+         </div>
+
+         <div class="block">
+            <div class="lang-block">
+               <i class="fa-solid fa-c"></i>
+               <div class="btn">
+                  <p class="c"></p>
+               </div>
+            </div>
+            <div class="lang-block">
+               <div class="cpp"><i class="fa-solid fa-c"></i>
+                  <div id="plus"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-plus"></i></div>
+               </div>
+               <div class="btn">
+                  <p class="c-plus"></p>
+               </div>
+            </div>
+
+            <div class="lang-block">
+               <i class="fa-brands fa-java"></i>
+               <div class="btn">
+                  <p class="java"></p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+    
+   </div>
+
+   <!-- projects section  -->
+   <div class="project" id="projects">
+      <h1>My Works</h1>
+      <div class="pro-box">
+         <div class="p-box">
+            <img src="./img/raj.png" alt="">
+            <h3>Raj-Restorent & Hotel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab deserunt alias!</p>
+            <a href=" https://ronakpanwar.github.io/Raj-hotel-restorent/" target="_main">Cheak-Out</a>
+         </div>
+         <div class="p-box">
+            <img src="./img/Tictactoe.webp" alt="">
+            <h3>Tic-Tac-Toi Game</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa quo nostrum.</p>
+            <a href=" https://ronakpanwar.github.io/tic-tac-toe/" target="_main">Cheak-Out</a>
+         </div>
+         <div class="p-box">
+            <img src="./img/weather.png" alt="">
+            <h3>Weather-detaction App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem nobis ducimus?</p>
+            <a href=" https://ronakpanwar.github.io/weather-app/" target="_main">Cheak-Out</a>
+         </div>
+      </div>
+      <a href=""> <button> <i class="fa-solid fa-chevron-down"></i> See More </button></a>
+   </div>
+
+   <!-- contect section -->
+
+   <div class="contect" id="cnt">
+      <h1>Contact Me</h1>
+      <div class="cnt-box">
+         <div class="cnt-box-1">
+            <form action="/">
+             <input type="text" placeholder="your name">
+               <input type="email" placeholder="Email">
+               <textarea name="message" id="msg" cols="30" rows="5" placeholder="Message"></textarea>
+               <button>Send Message</button>
+            </form>
+         </div>
+
+         <div class="cnt-box-2">
+            <div class="cnt-box-2-1">
+               <h1>Send Email</h1>
+               <a href="mailto:ronakpanwar18@gmail.com">ronakpanwar18@gmail.com</a>
+            </div>
+            <div class="cnt-box-2-2">
+               <h1>Follow on </h1>
+               <div>
+                  <a href=""><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                  <a href=""><i class="fa-brands fa-github  fa-lg"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
 </body>
-<script>
-    let page=document.getElementById('text');
-    page.style.display='none';
-    function hidetext(){
-     let page=document.getElementById('text');
-     let button =document.getElementById('button')
-     if(text.style.display='none'){
-        text.style.display='block';
-        button.style.display='none';
-     }else{
-        text.style.display='none';
-     }
-    }
 
+<script>
 
 
 </script>
+
+
 
 </html>
