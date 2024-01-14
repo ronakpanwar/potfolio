@@ -14,7 +14,7 @@
 
 .first-nav .name{
    color: lightskyblue;
-   font-family: 'Philosopher', sans-serif;
+   font-family:'Ubuntu', sans-serif;
    font-size: 25px;
 }
 .social-icon{
@@ -76,7 +76,7 @@
    margin: 0 30px;
    text-decoration: none;
    color: white;
-   font-family: 'Signika', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
    padding: 5px 10px;
    border-radius: 22px;
    transition: all 0.5s ease;
@@ -86,7 +86,7 @@
 
 .navbar .list a:hover {
 
-
+    color: lightskyblue;
    background-color:#0e174f;
    
 }
@@ -161,13 +161,16 @@
    font-family: 'Philosopher', sans-serif;
 }
 .container #about{
+   margin-top: 80px;
    color: lightskyblue;
+   margin-bottom: 20px;
+   font-size: 50px;
 }
 
 .aboutme{
-  
+   font-family: 'Ubuntu', sans-serif;
   display: flex;
-  margin: 40px 20px;
+  margin: 80px 20px;
   z-index: -1;
 }
 
@@ -194,33 +197,172 @@
   margin: 40px;
 }
 
-.aboutme .box2 h1, h2, p {
+.aboutme .box2 h1, h2 {
    margin: 10px;
+   font-size: 35px;
+   font-family: 'Ubuntu', sans-serif;
+}
+.aboutme .box2 p{
+   margin: 20px 10px;
 }
 
+
 .aboutme p{
-   font-family: 'Catamaran', sans-serif; 
+   font-family: 'Kanit', sans-serif;
 }
 
 .aboutme .box2 b{
    color: lightskyblue;
 }
 
-.aboutme .box2 button{
+.container button{
    margin: 20px 20px;
-   width: 30%;
-   padding: 10px 20px;
+   width: 20%;
+   padding: 10px 10px;
    border-radius: 10px;
+   background-color: #0e1338;
+   border: 2px solid lightskyblue;
+   color: lightskyblue;
    transition: all 0.5s ease-in-out; 
    cursor: pointer;
-
+   font-family: 'Kanit', sans-serif;
+}
+.container button i{
+   margin-right:10px;
 }
 
-.aboutme .box2 button:hover{
-   background-color: orangered;
+.container button:hover{
+   
    transform: scale(1.1);
  
 }
+.more-about{
+   margin: 100px 20px 20px 20px ;
+   display: none;
+   font-family: 'Ubuntu', sans-serif;
+}
+.more-about .home-about{
+   display: flex;
+    border: 2px solid lightskyblue;
+    padding:  20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 70%;
+    margin: 60px 0px;
+}
+.more-about .home-about img{
+   width: 350px;
+   height: 150px;
+   background-color: white;
+   border-radius: 10px;
+   margin: 10px 0px;
+   cursor: pointer;
+}
+.more-about .home-about .about-d{
+   display:flex ;
+   flex-direction: column;
+   padding: 0px 20px;
+   text-align: left;
+}
+.more-about .home-about .about-d h1{
+   font-size: 25px;
+   color: lightskyblue;
+}
+.more-about .home-about .about-d p{
+   font-size: 15px;
+   margin:10px 0px ;
+}
+.more-about .home-about .about-d a{
+   color: lightskyblue;
+}
+.more-about .home-about-1{
+   display: flex;
+   border: 2px solid lightskyblue;
+   padding:  20px;
+   border-radius: 10px;
+   justify-content: space-between;
+   width: 70%;
+  margin: 60px 300px ;
+  
+}
+.more-about .home-about-1 img{
+   width: 200px;
+   height: 150px;
+   background-color: white;
+   border-radius: 10px;
+   margin: 10px 0px;
+   cursor: pointer;
+}
+.more-about .home-about-1 .about-d{
+   display:flex ;
+   flex-direction: column;
+   padding: 0px 20px;
+   text-align: left;
+}
+.more-about .home-about-1 .about-d h1{
+   font-size: 25px;
+   color: lightskyblue;
+}
+.more-about .home-about-1 .about-d h3{
+   font-size: 20px;
+   margin:5px 0px ;
+}
+.more-about .home-about-1 .about-d p{
+   font-size: 12px;
+   margin:10px 0px ;
+}
+.more-about .home-about-1 .about-d a{
+   color: lightskyblue;
+}
+
+.more-about .about-hoby{
+   border: 2px solid lightskyblue;
+   border-radius: 10px;
+   padding: 10px;
+   margin-top:100px ;
+   margin-bottom: 60px;
+}
+.more-about .about-hoby h1{
+   color: lightskyblue ;
+   font-size: 35px;
+   margin: 20px;
+}
+
+.more-about .about-hoby .hoby{
+   display: flex;
+   justify-content: space-evenly;
+  margin-top: 60px ;
+  margin-bottom: 40px;
+}
+.more-about .about-hoby .hoby .hoby-box{
+   display: flex;
+   border: 2px solid lightskyblue;
+   border-radius: 10px;
+   margin: 10px 20px;
+}
+.more-about .about-hoby .hoby .hoby-box img{
+   width: 250px;
+   height: 150px;
+   margin: 20px;
+   background-color: white;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.more-about .about-hoby .hoby .hoby-box .h-box-a{
+   display: flex;
+   flex-direction: column;
+   margin: 20px 0px;
+}
+.more-about .about-hoby .hoby .hoby-box .h-box-a h3{
+   font-size: 30px;
+   margin-bottom: 20px;
+   color: lightskyblue;
+}
+.more-about .about-hoby .hoby .hoby-box .h-box-a p{
+   font-size: 15px;
+   margin: 5px;
+}
+
 
 .skills{
    display: flex;
@@ -231,11 +373,17 @@
 }
 
 .skills .hading{
+   margin-top: 80px;
    color: #0e1338;
-   margin: 30px;
-   font-family: 'Philosopher', sans-serif;
+   margin-bottom: 20px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 30px;
+   text-align: center;
 }
-
+.skills p{
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
 .container-skills{
    display: flex;
    padding: 20px;
@@ -280,7 +428,8 @@
    
    border: 2px solid black;
    border-radius: 10px;
-  overflow-x: hidden;
+ 
+  overflow: hidden;
    margin: 10px;
    cursor: pointer;
 }
@@ -289,6 +438,7 @@
    display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 5px;
  
 }
 .container-skills .block .lang-block .cpp{
@@ -328,6 +478,27 @@
    background-color: #0e1338;
    width: 70%;
 }
+.tool{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+   font-family: 'Ubuntu', sans-serif;
+}
+.tool h1{
+   font-size: 50px;
+}
+.tool-box{
+   display: flex;
+  margin:50px 10px;
+}
+.tool-box h3{
+   margin-left: 60px;
+   margin-right: 60px;
+   font-size: 30px;
+}
+
+
 
 .project{
    display: flex;
@@ -335,11 +506,24 @@
    align-items: center;
    background-color: #0e1338;
    padding: 40px;
+   font-family: 'Ubuntu', sans-serif;
 }
  
+.project #h-box{
+   display: none;
+   font-family: 'Ubuntu', sans-serif;
+}
 .project h1{
+   margin-top: 60px;
+   margin-bottom: 20px;
    color: lightskyblue;
-
+   font-size: 50px;
+}
+.project p{
+   font-size: 18px;
+   color: lightskyblue;
+   padding: 5px 60px;
+   font-family: 'Kanit', sans-serif;
 }
 
 .project .pro-box{
@@ -373,7 +557,7 @@
 }
 
 .project .pro-box .p-box h3{
-   margin-top: 10px;
+   margin: 13px 0px;
    font-size: 20px;
    color: white;
 }
@@ -397,12 +581,33 @@
   
 }
  
-.project a button{
+.project a  .show-btn{
    padding: 10px 30px;
    cursor: pointer;
    border-radius: 15px;
    transition: all 0.3s ease-in-out;
    background-color: lightblue;
+   margin-bottom: 40px;
+   margin-top: 20px;
+}
+.project #btn-1{
+   display: none;
+}
+.project a .hide-btn{
+ 
+   padding: 10px 50px;
+   font-size: 20px;
+   background-color: #0e1338;
+   border: 2px solid lightskyblue;
+   color: lightskyblue;
+   border-radius: 20px;
+   transition: all 0.4s ease-in-out;
+
+}
+.project a .hide-btn:hover{
+  transform: scale(1.2);
+  background-color: #0e1338;
+  cursor: pointer;
 }
 
 .project a button:hover{
@@ -416,7 +621,7 @@
    flex-direction: column;
    
     background-color: lightblue;
-    
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .contect h1{

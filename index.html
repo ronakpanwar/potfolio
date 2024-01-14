@@ -18,19 +18,9 @@
    <script src="https://kit.fontawesome.com/ca7b1c3abf.js" crossorigin="anonymous"></script>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Signika:wght@300;700&display=swap"
-      rel="stylesheet">
-
-   <!-- font-family: 'Philosopher', sans-serif; -->
-   <!-- font-family: 'Signika', sans-serif; -->
-
-   <link
-      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;900&family=Philosopher:wght@700&family=Signika:wght@300;700&display=swap"
-      rel="stylesheet">
-   <!-- font-family: 'Catamaran', sans-serif; -->
-   <!-- font-family: 'Philosopher', sans-serif; -->
-   <!-- font-family: 'Signika', sans-serif; -->
-
+   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+   <!-- font-family: 'Kanit', sans-serif;
+font-family: 'Ubuntu', sans-serif; -->
 
 </head>
 
@@ -86,21 +76,76 @@
 
             <h1>I am <b>WEB DEVELOPER</b></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, at laboriosam corrupti impedit sunt,
-               animi officia ex ad assumenda nam ab aut numquam sequi.</p>
-            <button><i class="fa-solid fa-chevron-down"></i> More About</button>
+               animi officia ex ad assumenda nam ab aut numquam sequi. Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Nobis iste cupiditate placeat!</p>
+
          </div>
          <div class="box1">
             <img src="#" alt="">
          </div>
+
       </div>
+      <div class="more-about" id="hide-about">
+
+         <div class="home-about">
+            <img src="./img/mandsaur.webp" alt="">
+            <div class="about-d">
+               <h1>I belong to <b>Mandsaur</b> : The City of Lord Pashupatinath </h1>
+               <p>Mandsaur District forms the northern projection of Madhya Pradesh from its western Division, i.e.,
+                  Ujjain Commissioner’s Division. It lies between the parallels of latitude 230 45′ 50″ North and 250 2′
+                  55″ North, and between the meridians of longitude 740 42′ 30″ East and 750 50′ 20″ East.</p>
+               <a href="https://mandsaur.nic.in/en/mandsaur-the-city-of-lord-pashupatinath/" target="_main">cheak site
+                  for more information</a>
+            </div>
+         </div>
+
+         <div class="home-about-1">
+
+            <div class="about-d">
+               <h1>I study in : <b>School of Information Technology , RGPV (Bhopal) </b></h1>
+               <h3>Branch : Computer Science And Business System</h3>
+               <p>RGPV is formerly known as the State Technological University of Madhya Pradesh with a campus sprawling
+                  over 247-acres. At present, the university is offering UG, PG, Diploma/Polytechnic, and Research level
+                  across 400+ RGPV affiliated colleges and institutions.</p>
+               <a href="https://www.rgpv.ac.in/" target="_main">cheak site for more information</a>
+            </div>
+            <img src="./img/Rajiv_Gandhi_Proudyogiki_Vishwavidyalaya_logo.png" alt="">
+         </div>
+         <div class="about-hoby">
+            <h1>Hobbies</h1>
+            <div class="hoby">
+               <din class="hoby-box">
+                  <img src="./img/volleyball-sports-ball_78370-346.avif" alt="">
+                  <div class="h-box-a">
+                     <h3>--Play Volleyball--</h3>
+                     <p>--Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur saepe a.--</p>
+                     <p>--Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur saepe a.--</p>
+                  </div>
+               </din>
+               <din class="hoby-box">
+                  
+                  <div class="h-box-a">
+                     <h3>--Sketching--</h3>
+                     <p>--Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur saepe a.--</p>
+                     <p>--Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur saepe a.--</p>
+                  </div>
+                  <img src="./img/sketching.webp" alt="">
+               </din>
+            </div>
+         </div>
+      </div>
+     <a href="#about"><button id="h-about" onclick="showAbout()"><i class="fa-solid fa-chevron-down"></i>See More About</button></a> 
    </div>
    </div>
 
    <!-- skills section -->
    <div class="skills" id="skill">
       <div class="hading">
-         <h1>Skills</h1>
+         <h1>Skills Overview</h1>
+
       </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum architecto iusto quo!
+      </p>
       <div class="container-skills">
          <div class="block">
             <div class="web-block">
@@ -154,12 +199,24 @@
 
          </div>
       </div>
-    
+      <div class="tool">
+         <h1>Dev Tools</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore temporibus hic veritatis.</p>
+         <div class="tool-box">
+            <h3>Visual Studio Code</h3>
+            <h3>Bootstrap</h3>
+            <h3>Github</h3>
+            <h3>Firebase</h3>
+         </div>
+      </div>
+
    </div>
 
    <!-- projects section  -->
    <div class="project" id="projects">
       <h1>My Works</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus inventore, dolore soluta eaque eveniet
+         natus. Aspernatur ratione sequi officia deleniti eos, voluptates hic.</p>
       <div class="pro-box">
          <div class="p-box">
             <img src="./img/raj.png" alt="">
@@ -180,7 +237,31 @@
             <a href=" https://ronakpanwar.github.io/weather-app/" target="_main">Cheak-Out</a>
          </div>
       </div>
-      <a href=""> <button> <i class="fa-solid fa-chevron-down"></i> See More </button></a>
+
+      <div class="pro-box" id="h-box">
+         <div class="p-box">
+            <img src="./img/raj.png" alt="">
+            <h3>Text-Tuls</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab deserunt alias!</p>
+            <a href=" https://ronakpanwar.github.io/text-tuls/" target="_main">Cheak-Out</a>
+         </div>
+         <div class="p-box">
+            <img src="./img/images.jpeg" alt="">
+            <h3>Calculater</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa quo nostrum.</p>
+            <a href=" https://ronakpanwar.github.io/Calculater/" target="_main">Cheak-Out</a>
+         </div>
+         <div class="p-box">
+            <img src="./img/images (1).jpeg" alt="">
+            <h3>To-Do-list</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem nobis ducimus?</p>
+            <a href=" https://ronakpanwar.github.io/weather-app/" target="_main">Cheak-Out</a>
+         </div>
+      </div>
+      <a href="#projects" onclick="boxshow()"> <button id="btn" class="show-btn"> <i
+               class="fa-solid fa-chevron-down"></i> See More </button></a>
+      <a href="https://github.com/ronakpanwar" target="_main" id="btn-1"><button class="hide-btn">See More on
+            Github</button></a>
    </div>
 
    <!-- contect section -->
@@ -190,7 +271,7 @@
       <div class="cnt-box">
          <div class="cnt-box-1">
             <form action="/">
-             <input type="text" placeholder="your name">
+               <input type="text" placeholder="your name">
                <input type="email" placeholder="Email">
                <textarea name="message" id="msg" cols="30" rows="5" placeholder="Message"></textarea>
                <button>Send Message</button>
@@ -217,11 +298,7 @@
 
 </body>
 
-<script>
-
-
-</script>
-
+<script src="style.js"></script>
 
 
 </html>
