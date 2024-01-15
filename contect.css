@@ -83,7 +83,7 @@
 .contect{
     display: flex;
     flex-direction: column;
-    padding-top:60px ;
+    padding-top:10px ;
      background-color: lightblue;
      font-family: 'Ubuntu', sans-serif;
  }
@@ -91,6 +91,7 @@
  .contect h1{
     color: #0e1338;
     padding: 10px;
+    margin-bottom: 30px;
     text-align: center;
  }
  
