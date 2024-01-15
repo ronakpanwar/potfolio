@@ -3,63 +3,200 @@
  
   .navbar{
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
-    width: fit-content;
-    top: 0;
-    position: sticky;
+
  
  }
  .navbar .bar{
     display: block;
     margin-right: 20px;
     cursor: pointer;
+    padding: 20px;
     
   }
  .navbar .list {
   
-    display: flex;
+    display: none;
     flex-direction: column;
     list-style: none;
     margin: 15px 40px;
+    
  
  }
-.navbar .list a{
-    margin: 0 10px;
-}
-.mainpage{
-    flex-direction: column;
-    align-items: center;
-}
-.mypic{
-    margin: 5px;
-    padding: 5px;
-}
-.mainhome::before{
-    height: 600px;
-     width: 100%;
-}
-.mainpage .content h3 {
-    font-size: 20px;
-    
- }
- .mainpage .content h1 {
-    font-size: 35px;
-    
- }
- .mainpage .content {
+ .mainhome {
 
-    padding: 0px;
-    
- }
- .mypic img{
-    width: 180px;
- }
- .aboutdisplay {
+   margin-top: -150px;
+   
+}
+
+
+
+
+
+
+
+
+
+.mypic h1{
+  
+   font-size: 20px;
+   color: lightskyblue;
+} 
+
+
+
+
+.aboutme{
+   
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+.aboutme p{
+   font-family: 'Kanit', sans-serif;
+}
+
+.aboutme .box2 b{
+   color: lightskyblue;
+}
+
+
+
+
+
+.more-about .home-about{
+   display: flex;
    flex-direction: column;
    align-items: center;
- }
- .aboutdisplay .mypic2 img{
-    width: 200px;
+
+}
+.more-about .home-about-1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+  
+}
+
+
+
+.more-about .about-hoby .hoby{
+   display: flex;
+   flex-direction: column;
+
+}
+.more-about .about-hoby .hoby .hoby-box{
+   display: flex;
+   flex-direction: column;
+align-items: center;
+  
+}
+
+
+
+
+
+
+
+
+
+.container-skills .block .btn {
+   width: 150px;
     
+}
+.container-skills .block i{
+   font-size: 20px;
+   margin: 10px
+}
+
+.container-skills .block .lang-block .cpp #plus i{
+   font-size: 10px;
+   flex-direction: row;
+   margin: 2px;
+}
+
+
+.tool h1{
+   font-size: 30px;
+}
+.tool p{
+   font-size: 5px;
  }
+
+
+.project #h-box{
+   display: none;
+   font-family: 'Ubuntu', sans-serif;
+ }
+ .project h1{
+ 
+   font-size: 40px;
+ }
+ .project p{
+   font-size: 10px;
+   
+ }
+ 
+ .project .pro-box{
+  
+   display: flex;
+   flex-direction: column;
+   margin-top: 80px;
+ }
+ 
+
+
+.client .client-box img{
+   width: 250px;
+   height: 200px;
+}
+
+
+
+
+
+.client .client-box{
+   align-items: center;
+   margin: 10px;
+}
+
+.client .client-box .c-box h1{
+   font-size: 30px;
+
+}
+.client .client-box .c-box p{
+   font-size: 12px;
+  
+}
+.client .client-box .c-box a{
+   font-size: 20px;
+  
+}
+
+.end-bar{
+   background-color: #0e1338;
+   padding: 50px;
+  
+}
+
+.end-bar .end-box{
+   display: flex;
+   justify-content: center;
+  
+}
+.end-bar .end-box a{
+  padding: 3px;
+}
+.end-bar .end-box a i{
+   font-size: 20px;
+   margin: 10px;
+
+}
+.end-bar .end-box a i:hover{
+  transform: scale(1.2);
+  color: lightskyblue;
+}

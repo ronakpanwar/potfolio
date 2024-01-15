@@ -1,17 +1,36 @@
-.navbar{
+ 
+ *{
+    margin: 0;
+    padding: 0;
+}
+.first-nav{
+  
+    justify-content: space-between;
+  }
+.first-nav .name{
+    color: lightskyblue;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 10px;
+ }
+ .img-logo {
+    padding: 5px;
+    margin: 0px 3px;
+    transition: all 0.4s ease-in-out;
+    font-size: 10px;
+   
+ }
+ .img-logo i{
+    width: 10px;
+   
+    color: white ;
+  }
+ 
+ .mainhome {
+
+   margin-top: -150px;
+   
+}
+
+.contect .cnt-box{
     flex-direction: column;
-    width:100%;
-}
-.navbar .list{
-    margin: 15px 0px;
-    font-size: 15px;
-}
-.navbar .list a{
-    margin: 0 10px;
-}
-.contectbox{
-    flex-direction: column;
-}
-.contectbox #box2 form{
-    width: 80%;
 }

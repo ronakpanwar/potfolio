@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-nav{
+  
+    justify-content: space-between;
+  }
+.first-nav .name{
+    color: lightskyblue;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 10px;
+ }
+ .img-logo {
+    padding: 5px;
+    margin: 0px 3px;
+    transition: all 0.4s ease-in-out;
+    font-size: 10px;
+   
+ }
+ .img-logo i{
+    width: 10px;
+   
+    color: white ;
+  }
+  .navbar{
+    width:100%;
+  }
+  .mypic img{
+    width: 200px;
+    height: 200px;
+  }
+  .mypic button{
+    font-size: 20px;
+  }
+ 
+ .container #about{
+    margin-top: 50px;
+    color: lightskyblue;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 40px;
+ }
+ 
+ .aboutme{
+    font-family: 'Ubuntu', sans-serif;
+   display: flex;
+   margin: 40px 20px;
+   z-index: -1;
+ }
+ 
+ .aboutme .box1{
+   width: 200px;
+   height:  250px;
+   
+   margin-left: 20px;
+   margin-right: 20px;
+ 
+ }
+ .aboutme .box1 img{
+    width: 200px;
+   height: 250px;
+  
+ 
+ }
+ 
+ .aboutme .box2{
+   
+   margin: 10px;
+   
+ }
+ 
+ .aboutme .box2 h1, h2 {
+    
+    font-size: 25px;
+   
+ }
+ .aboutme .box2 p{
+    margin: 40px 10px;
+ }
+ 
+ 
+ .container .buttons{
+ 
+    width: 50%;
+ 
+    font-size: 15px;
+  
+ }
+
+ 
+ .container .buttons:hover{
+    
+    transform: scale(1.1);
+  
+ }
+ .more-about{
+    margin: 100px 20px 20px 20px ;
+    display: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .more-about .home-about{
+   justify-content: center;
+     width: 90%;
+     margin: 10px 0px;
+ }
+ .more-about .home-about img{
+    width: 250px;
+    height: 150px;
+ 
+ }
+ 
+ .more-about .home-about .about-d h1{
+    font-size: 20px;
+    color: lightskyblue;
+ }
+ .more-about .home-about .about-d p{
+    font-size: 12px;
+    margin:10px 0px ;
+ }
+ .more-about .home-about .about-d a{
+    color: lightskyblue;
+ }
+ .more-about .home-about-1{
+ 
+    width: 90%;
+   margin: 60px 0px ;
+   
+ }
+ .more-about .home-about-1 img{
+    width: 200px;
+    height: 150px;
+    
+ }
+
+ .more-about .home-about-1 .about-d h1{
+    font-size: 20px;
+    color: lightskyblue;
+ }
+ .more-about .home-about-1 .about-d h3{
+    font-size: 18px;
+    margin:5px 0px ;
+ }
+ .more-about .home-about-1 .about-d p{
+    font-size: 12px;
+    margin:10px 0px ;
+ }
+ .more-about .home-about-1 .about-d a{
+    color: lightskyblue;
+ }
+ 
+ .more-about .about-hoby{
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:100px ;
+    margin-bottom: 60px;
+ }
+ .more-about .about-hoby h1{
+    color: lightskyblue ;
+    font-size: 25px;
+  
+ }
+ 
+ .more-about .about-hoby .hoby{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 40px ;
+   margin-bottom: 40px;
+ }
+
+ .more-about .about-hoby .hoby .hoby-box img{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+   
+ }
+ .more-about .about-hoby .hoby .hoby-box .h-box-a{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+ }
+ .more-about .about-hoby .hoby .hoby-box .h-box-a h3{
+    font-size: 18px;
+   
+ }
+ .more-about .about-hoby .hoby .hoby-box .h-box-a p{
+    font-size: 10px;
+    margin: 5px;
+ }
+ 
+ .skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: lightblue;
+}
+
+.skills .hading{
+
+  font-size: 20px;
+
+}
+.skills p{
+ font-size: 10px;
+ font-family: 'Kanit', sans-serif;
+}
+.container-skills{
+  
+  flex-direction: column;
+}
+
+
+.tool h1{
+  font-size: 40px;
+}
+.tool p{
+  font-size: 10px;
+}
+.tool-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin:20px 10px;
+}
+.tool-box h3{
+ 
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.project #h-box{
+  display: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+.project h1{
+
+  font-size: 40px;
+}
+.project p{
+  font-size: 15px;
+  
+}
+
+.project .pro-box{
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+
+
+
+
+
+.project  button:hover{
+  
+   transform: scale(1.1);
+}
+
+
+
+.client .client-box{
+ 
+  align-items: center;
+  
+  flex-direction: column;
+}
+
+
+
+

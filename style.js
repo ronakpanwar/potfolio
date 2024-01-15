@@ -1,16 +1,16 @@
 function boxshow() {
     let box = document.getElementById('h-box');
     let btn = document.getElementById('btn');
-    let btnHide = document.getElementById('btn-1');
+
     if (box.style.display != "flex") {
        box.style.display = "flex";
        btn.innerHTML = 'See less';
-       btnHide.style.display = "block";
+     
     }
     else {
        box.style.display = "none";
        btn.innerHTML = 'See More';
-       btnHide.style.display = "none";
+       
 
     }
 
@@ -18,15 +18,34 @@ function boxshow() {
  }
  
  function showAbout(){
-    let hideA = document.getElementById('hide-about');
+   let hideA = document.getElementById('hide-about');
     let btn = document.getElementById('h-about')
 
     if(hideA.style.display!="block"){
        hideA.style.display="block";
-       btn.innerHTML="See Less About ";
+       btn.style.display="none";
     }
-    else{
-       hideA.style.display="none";
-       btn.innerHTML="See More About";
-    }
+   
+    
+ }
+
+ let list = document.getElementById('lists');
+ let btn = document.getElementById('bars');
+ let xbar = document.getElementById('x-bars');
+  
+ xbar.style.display = 'none';
+
+ function change(){
+  btn.style.display = "none";
+  list.style.display="block";
+  
+  xbar.style.display = 'block';
+   
+ }
+
+ function xchange(){
+   btn.style.display = "block";
+   list.style.display="none";
+  
+   xbar.style.display = 'none';
  }

@@ -6,59 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contect</title>
     <link rel="stylesheet" href="contect.css">
+ 
     <link rel="stylesheet" media="screen and (max-width:750px)" href="contectphone.css">
+    <script src="https://kit.fontawesome.com/ca7b1c3abf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <nav class="navbar">
-            <h1 >RP</h1>
-            <ul class="list">
-                <li class="list1"><a href="index.html">Home</a> </li>
-                <li class="list2"><a href="index.html">About</a></li>
-                <li class="list3"><a href="skills.html">Skills</a></li>
-                <li class="list4"><a href="project.html">Project</a></li>
-                <li class="list5"><a href="contect.html">Contect</a></li>
-                
-            </ul>
-     </nav>
-<div class="container" id="container" onmouseenter="hover()">
-    <div class="main">
-     <h1 class="contect">
-        Contect Us
-     </h1>   
-         
-</div>
-</div>
-<div class="contectbox" id="content">
-    <div class="box" id="box1">
-        <div class="b">
-            <h3>Contect Me</h3>
-            <p>1800-1800</p>
-        </div>
-        <div class="b">
-            <h3> Send Mail</h3>
-            <p>ronakpanwar18@Gmail.com</p>
-        </div>
+     <!-- uper navbar section  -->
+   <nav class="first-nav">
+    <div class="name">
+       <h1>RONAK PANWAR</h1>
     </div>
-    <div class="box" id="box2">
-        <form action="">
-            First Name-<input type="text" placeholder="Enter your name" id="name" class="id">
-            Last Name-<input type="text" placeholder="Enter your sourname" id="lastname" class="id">
-            Mobile no.-<input type="tel" placeholder="Enter your contect no." id="number" class="id">
-            Massage-<textarea placeholder="Enter your massage" id="massage" class="id"></textarea>
-            <button type="button" name="Submit "  >Submit</button>
-        </form>
+    <div class="social-icon">
+       <a href="" class="img-logo"> <i class="fa-brands fa-instagram fa-lg"></i></a>
+       <a href="" class="img-logo"><i class="fa-brands fa-facebook fa-lg"></i></a>
+       <a href="" class="img-logo"><i class="fa-brands fa-twitter fa-lg"></i></a>
+       <a href="" class="img-logo"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+       <a href="" class="img-logo"><i class="fa-brands fa-github  fa-lg"></i></i></a>
     </div>
-</div>
 
+ </nav>
+ <hr>
+ <!-- navbar section  -->
+ <nav class="navbar" id="nav">
 
+    <ul class="list" id="lists">
+       <li class="list1"><a href="index.html"><i class="fa-solid fa-house"></i></a> </li>
+      
+    </ul>
+    <div class="bar" id="bars" onclick="change()">
+       <i class="fa-solid fa-bars fa-lg"></i>
+    </div>
+ </nav>
 
-
-
-
-
-
-
+    <div class="contect" id="cnt">
+        <h1>Contact Me</h1>
+        <div class="cnt-box">
+           <div class="cnt-box-1">
+              <form action="/">
+                 <input type="text" placeholder="your name">
+                 <input type="email" placeholder="Email">
+                 <textarea name="message" id="msg" cols="30" rows="5" placeholder="Message"></textarea>
+                 <button>Send Message</button>
+              </form>
+           </div>
+  
+           <div class="cnt-box-2">
+              <div class="cnt-box-2-1">
+                 <h1>Send Email</h1>
+                 <a href="mailto:ronakpanwar18@gmail.com">ronakpanwar18@gmail.com</a>
+              </div>
+             
+           </div>
+        </div>
+     </div>
     
 
 </body>

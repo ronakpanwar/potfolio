@@ -15,10 +15,12 @@
    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
    <link rel="stylesheet" media="screen and (max-width:750px)" href="phone.css">
+   <link rel="stylesheet" media="screen and (max-width:1190px)" href="phone1.css">
    <script src="https://kit.fontawesome.com/ca7b1c3abf.js" crossorigin="anonymous"></script>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Ubuntu:wght@300;700&display=swap"
+      rel="stylesheet">
    <!-- font-family: 'Kanit', sans-serif;
 font-family: 'Ubuntu', sans-serif; -->
 
@@ -31,11 +33,12 @@ font-family: 'Ubuntu', sans-serif; -->
          <h1>RONAK PANWAR</h1>
       </div>
       <div class="social-icon">
-         <a href="" class="img-logo"> <i class="fa-brands fa-instagram fa-lg"></i></a>
-         <a href="" class="img-logo"><i class="fa-brands fa-facebook fa-lg"></i></a>
-         <a href="" class="img-logo"><i class="fa-brands fa-twitter fa-lg"></i></a>
-         <a href="" class="img-logo"><i class="fa-brands fa-linkedin fa-lg"></i></a>
-         <a href="" class="img-logo"><i class="fa-brands fa-github  fa-lg"></i></i></a>
+         
+         <a href="" class="img-logo" target="_main"> <i class="fa-brands fa-instagram fa-lg"></i></a>
+         <a href="" class="img-logo" target="_main"><i class="fa-brands fa-facebook fa-lg"></i></a>
+         <a href="https://twitter.com/RonakPa75531500" class="img-logo" target="_main"><i class="fa-brands fa-twitter fa-lg"></i></a>
+         <a href="https://www.linkedin.com/in/ronak-panwar-70323a228/" target="_main" class="img-logo"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+         <a href="https://github.com/ronakpanwar" target="_main" class="img-logo"><i class="fa-brands fa-github  fa-lg"></i></i></a>
       </div>
 
    </nav>
@@ -48,11 +51,16 @@ font-family: 'Ubuntu', sans-serif; -->
          <li class="list2"><a href="#about">About</a></li>
          <li class="list3"><a href="#skill">Skills</a></li>
          <li class="list4"><a href="#projects">Project</a></li>
-         <li class="list5"><a href="#cnt">Contact</a></li>
+         <li class="list5" id="l-5"><a href="./contect.html">Contact Me</a></li>
       </ul>
+      <div>
       <div class="bar" id="bars" onclick="change()">
          <i class="fa-solid fa-bars fa-lg"></i>
       </div>
+      <div class="bar" id="x-bars" onclick="xchange()">
+         <i class="fa-solid fa-xmark"></i>
+      </div>
+   </div>
    </nav>
 
    <!-- home page section  -->
@@ -62,7 +70,9 @@ font-family: 'Ubuntu', sans-serif; -->
       <div class="mainpage">
          <div class="mypic">
             <img src="#">
-            <h1></h1>
+          
+            <h1>I'm a Web Developer</h1>
+            <a href=""><button class="buttons">Download CV <i class="fa-solid fa-download"></i></button></a>
          </div>
       </div>
    </div>
@@ -74,10 +84,9 @@ font-family: 'Ubuntu', sans-serif; -->
          <div class="box2">
             <h2>Hello , my name is <b>Ronak Panwar </b></h2>
 
-            <h1>I am <b>WEB DEVELOPER</b></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, at laboriosam corrupti impedit sunt,
-               animi officia ex ad assumenda nam ab aut numquam sequi. Lorem ipsum dolor sit amet consectetur
-               adipisicing elit. Nobis iste cupiditate placeat!</p>
+            <h1>I'm a <b>WEB DEVELOPER</b></h1>
+            <p>"I craft digital experiences that seamlessly blend innovation and functionality, turning ideas into
+               interactive and visually stunning web solutions that captivate and engage users."</p>
 
          </div>
          <div class="box1">
@@ -99,7 +108,7 @@ font-family: 'Ubuntu', sans-serif; -->
             </div>
          </div>
 
-         <div class="home-about-1">
+         <div class="home-about-1" >
 
             <div class="about-d">
                <h1>I study in : <b>School of Information Technology , RGPV (Bhopal) </b></h1>
@@ -123,7 +132,7 @@ font-family: 'Ubuntu', sans-serif; -->
                   </div>
                </din>
                <din class="hoby-box">
-                  
+
                   <div class="h-box-a">
                      <h3>--Sketching--</h3>
                      <p>--Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur saepe a.--</p>
@@ -132,9 +141,10 @@ font-family: 'Ubuntu', sans-serif; -->
                   <img src="./img/sketching.webp" alt="">
                </din>
             </div>
+            
          </div>
       </div>
-     <a href="#about"><button id="h-about" onclick="showAbout()"><i class="fa-solid fa-chevron-down"></i>See More About</button></a> 
+      <button class="buttons" id="h-about" onclick="showAbout()"><i class="fa-solid fa-chevron-down"></i>See More About</button>
    </div>
    </div>
 
@@ -212,9 +222,12 @@ font-family: 'Ubuntu', sans-serif; -->
 
    </div>
 
+
+   
+
    <!-- projects section  -->
    <div class="project" id="projects">
-      <h1>My Works</h1>
+      <h1>My Projects</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus inventore, dolore soluta eaque eveniet
          natus. Aspernatur ratione sequi officia deleniti eos, voluptates hic.</p>
       <div class="pro-box">
@@ -222,19 +235,19 @@ font-family: 'Ubuntu', sans-serif; -->
             <img src="./img/raj.png" alt="">
             <h3>Raj-Restorent & Hotel</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab deserunt alias!</p>
-            <a href=" https://ronakpanwar.github.io/Raj-hotel-restorent/" target="_main">Cheak-Out</a>
+            <a href=" https://ronakpanwar.github.io/Raj-hotel-restorent/" target="_main">Check-Out</a>
          </div>
          <div class="p-box">
             <img src="./img/Tictactoe.webp" alt="">
             <h3>Tic-Tac-Toi Game</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa quo nostrum.</p>
-            <a href=" https://ronakpanwar.github.io/tic-tac-toe/" target="_main">Cheak-Out</a>
+            <a href=" https://ronakpanwar.github.io/tic-tac-toe/" target="_main">Check-Out</a>
          </div>
          <div class="p-box">
             <img src="./img/weather.png" alt="">
             <h3>Weather-detaction App</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem nobis ducimus?</p>
-            <a href=" https://ronakpanwar.github.io/weather-app/" target="_main">Cheak-Out</a>
+            <a href=" https://ronakpanwar.github.io/weather-app/" target="_main">Check-Out</a>
          </div>
       </div>
 
@@ -243,57 +256,56 @@ font-family: 'Ubuntu', sans-serif; -->
             <img src="./img/raj.png" alt="">
             <h3>Text-Tuls</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab deserunt alias!</p>
-            <a href=" https://ronakpanwar.github.io/text-tuls/" target="_main">Cheak-Out</a>
+            <a href=" https://ronakpanwar.github.io/text-tuls/" target="_main">Check-Out</a>
          </div>
          <div class="p-box">
             <img src="./img/images.jpeg" alt="">
             <h3>Calculater</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa quo nostrum.</p>
-            <a href=" https://ronakpanwar.github.io/Calculater/" target="_main">Cheak-Out</a>
+            <a href=" https://ronakpanwar.github.io/Calculater/" target="_main">Check-Out</a>
          </div>
          <div class="p-box">
             <img src="./img/images (1).jpeg" alt="">
             <h3>To-Do-list</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem nobis ducimus?</p>
-            <a href=" https://ronakpanwar.github.io/weather-app/" target="_main">Cheak-Out</a>
+            <a href=" https://ronakpanwar.github.io/To-Do-List/" target="_main">Check-Out</a>
          </div>
       </div>
-      <a href="#projects" onclick="boxshow()"> <button id="btn" class="show-btn"> <i
-               class="fa-solid fa-chevron-down"></i> See More </button></a>
+       <button id="btn" class="show-btn" onclick="boxshow()"> <i
+               class="fa-solid fa-chevron-down"></i> See More </button>
       <a href="https://github.com/ronakpanwar" target="_main" id="btn-1"><button class="hide-btn">See More on
             Github</button></a>
    </div>
 
-   <!-- contect section -->
 
-   <div class="contect" id="cnt">
-      <h1>Contact Me</h1>
-      <div class="cnt-box">
-         <div class="cnt-box-1">
-            <form action="/">
-               <input type="text" placeholder="your name">
-               <input type="email" placeholder="Email">
-               <textarea name="message" id="msg" cols="30" rows="5" placeholder="Message"></textarea>
-               <button>Send Message</button>
-            </form>
-         </div>
-
-         <div class="cnt-box-2">
-            <div class="cnt-box-2-1">
-               <h1>Send Email</h1>
-               <a href="mailto:ronakpanwar18@gmail.com">ronakpanwar18@gmail.com</a>
-            </div>
-            <div class="cnt-box-2-2">
-               <h1>Follow on </h1>
-               <div>
-                  <a href=""><i class="fa-brands fa-linkedin fa-lg"></i></a>
-                  <a href=""><i class="fa-brands fa-github  fa-lg"></i></a>
-                  <a href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
-               </div>
-            </div>
+   <!-- contact with client -->
+   <div class="client">
+      <div class="client-box">
+         <img src="./img/client.jpg" alt="">
+         <div class="c-box">
+            <h1>Got a Project?</h1>
+            <h1>Let's talk.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse aliquid eos debitis velit!</p>
+            <a href="./contect.html">Contact me. <i class="fa-solid fa-arrow-right"></i></a>
          </div>
       </div>
    </div>
+
+   <!-- end bar -->
+   <div class="end-bar">
+     
+      <div class="end-box">
+         <a href="" class="end-logo" target="_main"> <i class="fa-brands fa-instagram fa-lg"></i></a>
+         <a href="" class="end-logo" target="_main"><i class="fa-brands fa-facebook fa-lg"></i></a>
+         <a href="https://twitter.com/RonakPa75531500" class="end-logo" target="_main"><i class="fa-brands fa-twitter fa-lg"></i></a>
+         <a href="https://www.linkedin.com/in/ronak-panwar-70323a228/" class="end-logo" target="_main"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+         <a href="https://github.com/ronakpanwar" class="end-logo" target="_main"><i class="fa-brands fa-github  fa-lg"></i></i></a>
+      </div>
+      
+   </div>
+
+
+  
 
 
 </body>
