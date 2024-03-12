@@ -86,6 +86,7 @@
     padding-top:10px ;
      background-color: lightblue;
      font-family: 'Ubuntu', sans-serif;
+     align-items: center;
  }
  
  .contect h1{
@@ -96,8 +97,15 @@
  }
  
  .contect .cnt-box{
+   width: 40%;
     display: flex;
-   justify-content: space-evenly;
+    flex-direction: column;
+  
+   align-items: center;
+   background-color: #0e1338ac;
+   border-radius: 30px;
+   box-shadow: 4px 4px 20px #0e1338 , inset 4px 4px 20px #0e1338;
+   margin :20px 0px ;
  }
  .contect .cnt-box .cnt-box-1{
   padding: 20px;
@@ -107,7 +115,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px 30px;
-    margin-right: 50px;
+  
     align-items: center;
     
  }
@@ -117,7 +125,7 @@
     font-size: 20px;
     margin: 10px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 2px solid #0e1338;
     
  }
@@ -126,7 +134,7 @@
     width: 100%;
     padding: 3px 10px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 2px solid #0e1338;
  }
  .contect .cnt-box .cnt-box-1 form button{
@@ -134,10 +142,10 @@
     cursor: pointer;
     background-color: lightskyblue;
     color: #0e1338;
-     width: 100%;
+     width: 50%;
     padding: 5px 15px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 2px solid #0e1338;
     transition: all 0.3s ease-in-out;
  }
@@ -150,28 +158,27 @@
  .contect .cnt-box .cnt-box-2{
    
     
-    padding: 20px;
+    
  }
  .contect .cnt-box .cnt-box-2 .cnt-box-2-1{
     margin: 20px;
     display: flex;
     flex-direction: column;
     color: #0e1338;
+    align-items: flex-start;
    
  }
  .contect .cnt-box .cnt-box-2 .cnt-box-2-1 h1{
-    font-size: 40px;
-    
- 
- }
- .contect .cnt-box .cnt-box-2 .cnt-box-2-1 a{
-    color: #0e1338;
-    margin-left: 20px;
     font-size: 20px;
-    text-decoration: none;
+
  }
+ .contect .cnt-box .cnt-box-2 .cnt-box-2-1 h1 a{
+   text-decoration: none;
+   color: #0e1338;
+ }
+ 
  .contect .cnt-box .cnt-box-2 .cnt-box-2-1 a:hover{
-    color: black;
+    color:skyblue;
  }
  .contect .cnt-box .cnt-box-2 .cnt-box-2-2{
     display: flex;
